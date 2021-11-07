@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html {
+    overflow-y: scroll;
+}
+
+body{
+    margin:0;
+}
+
+.primary-button {
+    font-family: 'Varta', sans-serif;
+    font-size: 16px;
+    color:#FFFFFF;
+    background: #F6B93B;
+    width: 133px;
+    height: 56px;
+    left: 394px;
+    top: 509px;
+    border: none;
+    border-radius: 26px;
+    box-shadow: 0 10px 13px -7px #313131;
+    transition: all 0.34s;
+    cursor: pointer;
+}
+.primary-button-black {
+    font-family: 'Varta', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color:#FFFFFF;
+    background: #000;
+    width: 133px;
+    height: 56px;
+    left: 394px;
+    top: 509px;
+    border: none;
+    border-radius: 26px;
+    box-shadow: 0 10px 13px -7px #313131;
+    transition: all 0.34s;
+    cursor: pointer;
+}
+.primary-button:hover {
+    background-color: #e58e26;
+}
+.primary-button-black:hover {
+    background-color: #313131;
+}
+.primary-button:focus {
+    outline: 0;
+}
+.primary-button-black:focus {
+    outline: 0;
+}
+button{
+    cursor:pointer;
+}
+.select-item {  
+    font-family: "Varta", sans-serif;
+    color:#313131;
+    --border:none;
+    --borderRadius: 6px;
+    --borderFocusColor: #313131;
+    --borderHoverColor: #313131;
+    --background: #eee;
+    --itemColor: #313131;
+}
+
+.multiSelectItem {  
+    font-family: "Varta", sans-serif;
+    color:#313131;
+    --multiLabelMargin:4px;
+    --borderColor: #313131;
+    --borderFocusColor: #313131;
+    --background: #eee;
+    --itemColor: #313131;
+    --multiItemBG: #f6b93b;
+    --multiItemActiveBG: #e58e26 ;
+    --multiClearHoverFill: #313131;
+    --multiClearBG: #313131;
+}
+
+
+.input-type {
+    background-color: #eee;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin: 8px auto;
+}
+
+.input-type:focus{
+    outline: 0;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
