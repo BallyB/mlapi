@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "4d8be1a9-2a80-4649-808c-8234bf57dcb2",
+		"name": "ProjectZama",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SignUpUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nickname\":\"Adrien\",\r\n    \"email\":\"adrien@test.com\",\r\n    \"password\":\"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/auth/signupUser",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"auth",
+						"signupUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignInUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"aurel@test.com\",\r\n    \"password\":\"lol\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/auth/signinUser",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"auth",
+						"signinUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/index/test",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"index",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Prediction",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MThhZGQzMmJlMGM1ZWEyYzZmMTk4ZjIiLCJpYXQiOjE2MzY0OTA4MTYsImV4cCI6MTYzNjU3NzIxNn0.CH761IB2D8HJStBBi0GXs6tQ-lwJyoEBaIl43ntr4r0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seplength\":5.6,\r\n    \"sepwidth\":2.7,\r\n    \"petlength\":5.2,\r\n    \"petwidth\":1.3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/prediction/predict",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"prediction",
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:3000"
+		}
+	]
+}
