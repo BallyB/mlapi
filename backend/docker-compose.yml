@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  llama:
+  zama:
     container_name: zama
     image: node
     ports: 
