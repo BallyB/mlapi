@@ -3,7 +3,6 @@ const router = express.Router();
 
 const indexCtrl = require('../controllers/index');
 
-//Route participants
 router.get('/test', indexCtrl.test);
 
 
