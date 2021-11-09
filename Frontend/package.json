@@ -22,6 +22,7 @@
     "dotenv": "^8.2.0",
     "marked": "^2.0.1",
     "materialize-css": "^1.0.0-rc.2",
+    "python-shell": "^3.0.1",
     "quill": "^1.3.7",
     "select2": "^4.1.0-rc.0",
     "sirv-cli": "^1.0.0",

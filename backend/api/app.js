@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 const userRoutes = require('./routes/user');
-const experimentRoutes = require('./routes/experiment');
+const predictionRoutes = require('./routes/prediction');
+const indexRoutes = require('./routes/index');
 
 mongoose.connect('mongodb+srv://adrien:hWFXxP4GNaiY3Jsn@cluster0.ray79.mongodb.net/zama?retryWrites=true&w=majority',
   {
@@ -34,7 +35,7 @@ app.use(bodyParser.json());
 
 //Define user routes
 app.use('/api/auth', userRoutes);
-app.use('/api/experiment', experimentRoutes);
-
+app.use('/api/prediction', predictionRoutes);
+app.use('/api/index', indexRoutes);
 
 module.exports = app;

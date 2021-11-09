@@ -1,0 +1,8 @@
+numpy
+pandas
+keras
+matplotlib
+normalize
+
+py -m pip install tensorflow
+
