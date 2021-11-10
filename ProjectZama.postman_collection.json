@@ -40,7 +40,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"aurel@test.com\",\r\n    \"password\":\"lol\"\r\n}",
+					"raw": "{\r\n    \"email\":\"adrien@test.com\",\r\n    \"password\":\"password\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -88,7 +88,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MThhZGQzMmJlMGM1ZWEyYzZmMTk4ZjIiLCJpYXQiOjE2MzY0OTA4MTYsImV4cCI6MTYzNjU3NzIxNn0.CH761IB2D8HJStBBi0GXs6tQ-lwJyoEBaIl43ntr4r0",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MThhZmJlNTA4ZDE1NzMwZGJmZjI3OTYiLCJpYXQiOjE2MzY0OTg0MTIsImV4cCI6MTYzNjU4NDgxMn0.gTCHg_oPlfcOb_G5SfndTvyvZVWU4-TnVqLykK2-9e4",
 							"type": "string"
 						}
 					]
