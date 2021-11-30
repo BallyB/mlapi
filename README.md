@@ -9,8 +9,8 @@ git clone https://gitlab.com/ajeanne25/zama .
 
 ## Create docker image and run
 ```powershell
-docker build . -t zama/node-web-app
+docker build . -t node-web-app
 ```
 ```powershell
-docker run -p 3000:3000 -d zama/node-web-app
+docker run -p 3000:3000 -d node-web-app
 ```
