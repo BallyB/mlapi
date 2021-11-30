@@ -4,7 +4,7 @@ WEB API NodeJS and python
 
 ## Clone this repo
 ```powershell
-git clone https://gitlab.com/ajeanne25/zama .
+git clone https://gitlab.com/ajeanne25/mlapi .
 ```
 
 ## Create docker image and run
